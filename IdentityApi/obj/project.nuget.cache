@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3esbiJ+PDFU=",
+  "dgSpecHash": "M5QlJPZGJ5k=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+  "projectFilePath": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fs07s\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fs07s\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

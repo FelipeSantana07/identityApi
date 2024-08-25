@@ -4660,11 +4660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+      "projectUniqueName": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi.csproj",
       "projectName": "IdentityApi",
-      "projectPath": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+      "projectPath": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi.csproj",
       "packagesPath": "C:\\Users\\fs07s\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\obj\\",
+      "outputPath": "D:\\GitHub\\identityApi\\IdentityApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fs07s\\AppData\\Roaming\\NuGet\\NuGet.Config",

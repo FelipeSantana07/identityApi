@@ -1,5 +1,9 @@
+using IdentityApi.Config;
+using IdentityApi.Entities;
+using IdentityApi.Repository;
 using IdentityApi.Token;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +14,18 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<ContextBase>(options =>
+               options.UseSqlServer(
+                   builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//true  -  necessário confirmação de email 
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ContextBase>();
+
+//Interfaces e repositorios
+//precisam estar aqui
+builder.Services.AddSingleton<InterfaceProduto , RepositoryProduto>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
              .AddJwtBearer(option =>
@@ -23,7 +39,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
                      ValidIssuer = "Teste.Securiry.Bearer",
                      ValidAudience = "Teste.Securiry.Bearer",
-                     IssuerSigningKey = JwtSecurityKey.Create("Secre_key-12345678")
+                     IssuerSigningKey = JwtSecurityKey.Create("Secret_Key-12345678")
                  };
 
                  option.Events = new JwtBearerEvents

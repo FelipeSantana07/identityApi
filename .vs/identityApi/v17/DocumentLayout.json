@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\identityApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "IdentityApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T19:16:18.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Program.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\Program.cs",
+              "RelativeToolTip": "IdentityApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T19:13:12.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Controllers\\TokenController.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "IdentityApi\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T19:03:34.905Z",
+              "EditorCaption": ""
             }
           ]
         }
