@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "IdentityApi\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\Controllers\\UsersController.cs",
               "RelativeToolTip": "IdentityApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T19:16:18.584Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "IdentityApi\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T19:13:12.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T19:13:12.22Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "IdentityApi\\Controllers\\TokenController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T19:03:34.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T19:03:34.905Z"
             }
           ]
         }
