@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\identityApi\\IdentityApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\identityapi\\repository\\repositoryproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\repository\\repositoryproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\identityapi\\identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\identityapi\\repository\\interfaceproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\repository\\interfaceproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\identityapi\\config\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\config\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|d:\\github\\identityapi\\identityapi\\identityapi\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570100D-8890-4DDF-BEFA-711993EDD7BC}|IdentityApi\\IdentityApi.csproj|solutionrelative:identityapi\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Program.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Program.cs",
+              "RelativeToolTip": "IdentityApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:37:00.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryProduto.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Repository\\RepositoryProduto.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Repository\\RepositoryProduto.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Repository\\RepositoryProduto.cs",
+              "RelativeToolTip": "IdentityApi\\Repository\\RepositoryProduto.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:28:47.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InterfaceProduto.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Repository\\InterfaceProduto.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Repository\\InterfaceProduto.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Repository\\InterfaceProduto.cs",
+              "RelativeToolTip": "IdentityApi\\Repository\\InterfaceProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:26:08.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Entities\\ApplicationUser.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "IdentityApi\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:09:15.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContextBase.cs",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Config\\ContextBase.cs",
+              "RelativeDocumentMoniker": "IdentityApi\\Config\\ContextBase.cs",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\Config\\ContextBase.cs",
+              "RelativeToolTip": "IdentityApi\\Config\\ContextBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:08:07.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityApi",
+              "DocumentMoniker": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+              "RelativeDocumentMoniker": "IdentityApi\\IdentityApi.csproj",
+              "ToolTip": "D:\\GitHub\\identityApi\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+              "RelativeToolTip": "IdentityApi\\IdentityApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T16:42:45.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
