@@ -25,15 +25,15 @@ namespace IdentityApi.Config
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(ObterStringConexao());
+                //optionsBuilder.UseNpgsql(ObterStringConexao());
+                optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=API_IDENTITY;Username=user;Password=123");
                 base.OnConfiguring(optionsBuilder);
             }
         }
 
-        public string ObterStringConexao()
-        {
-            return "Data Source=NBQSP-FC693;Initial Catalog=API_CANAL_DEV_NET_CORE;Integrated Security=False;User ID=sa;Password=1234;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
-            //return "Data Source=NBQSP-FC693;Initial Catalog=API_CANAL_DEV_NET_CORE;Integrated Security=True"; // Evitar
-        }
+        //public string ObterStringConexao()
+        //{
+        //    return "Host=localhost;Port=5432;Database=API_IDENTITY;Username=user;Password=123";
+        //}
     }
 }

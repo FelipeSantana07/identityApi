@@ -1,5 +1,6 @@
 ﻿using IdentityApi.Entities;
 using IdentityApi.Models;
+using IdentityApi.Token;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -44,7 +45,7 @@ namespace IdentityApi.Controllers
             var result = await _userManager.CreateAsync(user, login.password);
 
             if (result.Errors.Any())
-                return Ok(result.Errors);
+                return BadRequest(result.Errors);
 
             // program.cs -> RequireConfirmedAccount = true 
             // gerar confirmação de email
@@ -57,7 +58,22 @@ namespace IdentityApi.Controllers
 
             if (resultConfirmEmail.Succeeded)
             {
-                return Ok("Usuário cadastrado com sucesso");
+                var token = new TokenJWTBuilder()
+                                .AddSecurityKey(JwtSecurityKey.Create("JGHF4W3KHUG2867RUYFSDUIYFDT%DBHAJHKSFFY%"))
+                                .AddSubject("identityAPI")
+                                .AddIssuer("identityAPI.Security.Bearer")
+                                .AddAudience("identityAPI.Security.Bearer")
+                                .AddExpiry(5)
+                                .Builder();
+
+                var newUser = new
+                {
+                    id = user.Id,
+                    email = user.Email,
+                    token = token.value
+                };
+
+                return Ok(newUser);
             }
 
             return Ok("Erro ao confirmar usuário");

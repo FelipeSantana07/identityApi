@@ -145,3 +145,5 @@ D:\GitHub\identityApi\IdentityApi\obj\Debug\net8.0\refint\IdentityApi.dll
 D:\GitHub\identityApi\IdentityApi\obj\Debug\net8.0\IdentityApi.pdb
 D:\GitHub\identityApi\IdentityApi\obj\Debug\net8.0\IdentityApi.genruntimeconfig.cache
 D:\GitHub\identityApi\IdentityApi\obj\Debug\net8.0\ref\IdentityApi.dll
+D:\GitHub\identityApi\IdentityApi\bin\Debug\net8.0\Npgsql.dll
+D:\GitHub\identityApi\IdentityApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

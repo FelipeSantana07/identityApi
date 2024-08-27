@@ -1,8 +1,11 @@
-﻿namespace IdentityApi.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace IdentityApi.Models
 {
     public class InputLoginRequest
     {
         public string Email { get; set; }
+
         public string Password { get; set; }
     }
 }

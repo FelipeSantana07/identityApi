@@ -2,11 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using IdentityApi.Repository;
 using IdentityApi.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IdentityApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProdutosController : ControllerBase
     {
         private readonly InterfaceProduto _InterfaceProduto;

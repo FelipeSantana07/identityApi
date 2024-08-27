@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "IdentityApi.Controllers.UsersController",
+    "Method": "AddUser",
+    "RelativePath": "api/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "IdentityApi.Models.AddUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.ProdutosController",
+    "Method": "Add",
+    "RelativePath": "api/AdicionarProdutos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "IdentityApi.Entities.ProdutoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.ProdutosController",
+    "Method": "Update",
+    "RelativePath": "api/AtualizarProdutos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "IdentityApi.Entities.ProdutoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.TokenController",
+    "Method": "CreateToken",
+    "RelativePath": "api/CreateToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Input",
+        "Type": "IdentityApi.Models.InputLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.ProdutosController",
+    "Method": "GetEntityById",
+    "RelativePath": "api/ListarProdutoID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.ProdutosController",
+    "Method": "List",
+    "RelativePath": "api/ListarTodosProdutos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityApi.Controllers.ProdutosController",
+    "Method": "Remove",
+    "RelativePath": "api/RemoverProdutos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

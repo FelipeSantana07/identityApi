@@ -16,7 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ContextBase>(options =>
-               options.UseSqlServer(
+               options.UseNpgsql(
                    builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //true  -  necessário confirmação de email 
@@ -39,7 +39,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
                      ValidIssuer = "Teste.Securiry.Bearer",
                      ValidAudience = "Teste.Securiry.Bearer",
-                     IssuerSigningKey = JwtSecurityKey.Create("Secret_Key-12345678")
+                     IssuerSigningKey = JwtSecurityKey.Create("JGHF4W3KHUG2867RUYFSDUIYFDT%DBHAJHKSFFY%")
                  };
 
                  option.Events = new JwtBearerEvents
